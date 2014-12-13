@@ -1,0 +1,22 @@
+{
+  "name": "simplebot",
+  "version": "1.0.0",
+  "description": "Getting ready to mess with node bits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Midnight-Coder/simplebot.git"
+  },
+  "keywords": [
+    "nodebots"
+  ],
+  "author": "Sagar Jhobalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Midnight-Coder/simplebot/issues"
+  },
+  "homepage": "https://github.com/Midnight-Coder/simplebot"
+}
