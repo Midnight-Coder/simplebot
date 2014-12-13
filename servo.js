@@ -27,28 +27,14 @@ servo.on('ready', function () {
   servo.configure(servo1, 0.05, 0.12, function () {
     setInterval(function () {
       console.log('Servo 1 Position (in range 0-1):', position1);
-      //  Set servo #1 to position pos.
       servo.move(servo1, position1);
-
-      // // Increment by 10% (~18 deg for a normal servo)
-      // position1 += 0.1;
-      // if (position1 > 1) {
-      //   position1 = 0; // Reset servo position
-      // }
     }, 500); // Every 500 milliseconds
   });
 
   servo.configure(servo2, 0.05, 0.12, function () {
     setInterval(function () {
       console.log('Servo 2 Position (in range 0-1):', position2);
-      //  Set servo #1 to position pos.
       servo.move(servo2, position2);
-
-      // Increment by 10% (~18 deg for a normal servo)
-      // position2 -= 0.1;
-      // if (position2 < 0) {
-      //   position2 = 1; // Reset servo position
-      // }
     }, 500); // Every 500 milliseconds
   });
 });
